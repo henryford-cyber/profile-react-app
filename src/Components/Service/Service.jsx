@@ -29,7 +29,7 @@ const darkMode = theme.state.darkMode;
     </div>
     <div className="cards"> 
         <motion.div
-            initial={{left:"30rem"}}
+            initial={{left:"23rem"}}
             whileInView={{left:"14rem"}}
             transition={transition}
             className="s-card-1">
@@ -49,7 +49,7 @@ const darkMode = theme.state.darkMode;
             />
         </motion.div>
         <motion.div
-            initial={{left:"30rem"}}
+            initial={{left:"23rem"}}
             whileInView={{left:"14rem"}}
             transition={transition}
          className="s-card-3">

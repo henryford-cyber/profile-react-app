@@ -20,3 +20,10 @@
     color: black;
     font-weight: 700;
 }
+@media screen and (max-width: 992px){
+     .floating1{
+        top: 0%;
+        left: 35%;
+     }
+  
+} 

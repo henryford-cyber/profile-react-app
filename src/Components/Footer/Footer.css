@@ -21,6 +21,13 @@
   gap: 2rem;
 }
 
+@media screen and (max-width: 1160px){
+   .f-content { 
+    gap: 2rem; 
+}
+  
+} 
+
 @media screen and (max-width: 480px){
   .f-content{
     transform: scale(.8);

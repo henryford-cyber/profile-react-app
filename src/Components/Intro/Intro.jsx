@@ -37,10 +37,10 @@ const Intro = () => {
                 </span>
             </div>
             <button className='button i-button'>Hire me</button>
-            <div className="i-icons">
-                <a href=""><img src={Github} alt="" /></a>
-                <a href=""><img src={LinkedIn} alt="" /></a>
-                <a href=""><img src={Instagram} alt="" /></a>
+            <div className="i-icons"> 
+                <a target="_blank" href="https://www.instagram.com/namphan0211/"><img src={Github} alt="" /></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100029286273131"><img src={LinkedIn} alt="" /></a>
+                <a target="_blank" href="https://github.com/henryford-cyber"><img src={Instagram} alt="" /></a>
             </div>
         </div>
         <div className="i-right">

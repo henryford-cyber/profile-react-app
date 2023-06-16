@@ -62,20 +62,19 @@
     z-index: 1;
 }
 .i-right>:nth-child(1) {
-    transform: scale(0.69);
+    transform: scale(66%);
     top: -6%;
     left: -7%;
 }
-.i-right>:nth-child(2){
-    transform: scale(0.67);
-    top: -4.6rem;
-    left:-3rem;
-
+.i-right>:nth-child(2) {
+    transform: scale(65%);
+    top: -13%;
+    left: -8%;
 }
-.i-right>:nth-child(3){
-    transform: scale(1.4);
-     left: 18%;
-
+.i-right>:nth-child(3) {
+    transform: scale(146%);
+    left: 17%;
+    top: -1%;
 }
 .i-right>:nth-child(4){
     transform: scale(0.6);
@@ -115,7 +114,70 @@
     left: -9rem;
 
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:1160px){ 
+    .i-right>:nth-child(3) {
+        transform: scale(100%);
+        left: 10%;
+        top: 10%;
+    }
+    .i-right>:nth-child(2) {
+        transform: scale(75%);
+        top: 17%;
+        left: -10%;
+    }
+    .i-right>:nth-child(1) {
+        transform: scale(80%);
+        top: 22%;
+        left: -17%;
+    }
+    .floating1{
+        top: 14%;
+        left: 45%;
+    }
+    .i-icons {
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+}
+@media screen and (max-width:992px){ 
+    .i-right>:nth-child(4){
+        left: -58%;
+    }
+}
+@media screen and (max-width:769px){ 
+
+    .intro { 
+        height: 100%;
+        margin-top: 6rem;
+        gap: 10rem;
+        display: grid;
+        position: relative;
+    }
+    .i-right {
+        flex: none;
+        position: relative;
+        height: 40rem;
+        transform: translateX(15%);
+    }
+    .i-right>:nth-child(3) {
+        transform: scale(150%);
+        left: 10%;
+        top: 0%;
+    }
+    .i-right>:nth-child(1) {
+        transform: scale(85%);
+        top: -5%;
+        left: -15%;
+    }
+    .i-right>:nth-child(2) {
+        transform: scale(85%);
+        top: -10%;
+        left: -10%;
+    }
+}   
+@media screen and (max-width:576px){
     .intro{
         flex-direction: column;
         height: 64rem;
@@ -175,5 +237,8 @@
         top: -18%;
         left:56%;
         filter: blur(72px);
+    }
+    .i-name>:nth-child(1) { 
+        font-size: 2rem;
     }
   }

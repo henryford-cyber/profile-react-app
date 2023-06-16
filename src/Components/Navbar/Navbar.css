@@ -35,27 +35,30 @@ color: var(--orange);
 .n-button{
     flex: 2
 }
-
-@media screen and (max-width:480px){
-    .n-list{
-        display: none;
+@media screen and (max-width:1160px){ 
+    .App {
+        padding: 1.5rem 2rem 0 1.5rem;
     }
-    .n-button {
+    .n-wrapper .n-right { 
         flex: none; 
     }
-    .n-right{
-        flex: none;
+    .n-wrapper .n-right .n-list { 
+        display: none;
     }
-    .n-left {
-        flex: none;
-        align-items: center;
-        display: flex;
-        gap: 1rem;
-        justify-content: space-between;
-         
-    }
-    .n-name {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
+    
+}
+@media screen and (max-width:992px){ 
+
+}
+@media screen and (max-width:768px){ 
+
+}  
+@media screen and (max-width:576px){
+  .App{
+    padding:0.5rem 1rem;
+  }  
+  .n-name {
+      font-size: 1.5rem;
+      font-weight: bold;
   }
+}
