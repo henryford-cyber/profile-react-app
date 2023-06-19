@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile-react-app/static/css/main.5aa5bd62.css",
-    "main.js": "/profile-react-app/static/js/main.552f4d02.js",
+    "main.css": "/profile-react-app/static/css/main.78b6f881.css",
+    "main.js": "/profile-react-app/static/js/main.a04b2d25.js",
     "static/js/787.f2a0fa2f.chunk.js": "/profile-react-app/static/js/787.f2a0fa2f.chunk.js",
     "static/media/ecommerce.png": "/profile-react-app/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/profile1.jpg": "/profile-react-app/static/media/profile1.563ef4b2f3890488d80b.jpg",
@@ -22,12 +22,12 @@
     "static/media/Vector2.png": "/profile-react-app/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/profile-react-app/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/profile-react-app/index.html",
-    "main.5aa5bd62.css.map": "/profile-react-app/static/css/main.5aa5bd62.css.map",
-    "main.552f4d02.js.map": "/profile-react-app/static/js/main.552f4d02.js.map",
+    "main.78b6f881.css.map": "/profile-react-app/static/css/main.78b6f881.css.map",
+    "main.a04b2d25.js.map": "/profile-react-app/static/js/main.a04b2d25.js.map",
     "787.f2a0fa2f.chunk.js.map": "/profile-react-app/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aa5bd62.css",
-    "static/js/main.552f4d02.js"
+    "static/css/main.78b6f881.css",
+    "static/js/main.a04b2d25.js"
   ]
 }
