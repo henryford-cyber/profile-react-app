@@ -104,7 +104,7 @@
     z-index: -9;
     top: -18%;
     left:56%;
-    filter: blur(72px);
+    filter: blur(72px) !important;
 }
 .bl-2{
     background: #9cefff;

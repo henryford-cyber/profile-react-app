@@ -75,6 +75,17 @@ textarea{
     top: 1rem;
     left: 8rem;
 }
+
+.send-button{
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size:16px;
+    box-shadow: 0px 20px 24px 3px rgba(251,161,20,0.42);
+    background:linear-gradient(180deg,#fdc50f,#fb982f 99.36%);
+    padding:11px 26px;
+    text-align: center;
+  }
 @media screen and (max-width:1160px){ 
 
 }
