@@ -49,7 +49,7 @@ const Contact = () => {
           <input type="text" name="to_name" className="user"  placeholder="Name"/>
           <input type="email" name="from_name" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
-          <button type="submit" className="button send-button">Send message</button>
+          <button type="submit" className="send-button">Send message</button>
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
